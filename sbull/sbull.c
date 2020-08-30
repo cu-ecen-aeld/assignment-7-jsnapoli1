@@ -199,6 +199,7 @@ static int sbull_xfer_request(struct sbull_dev *dev, struct request *req)
 		//nsect += bio->bi_size/KERNEL_SECTOR_SIZE;
 		nsect += bio->bi_iter.bi_size/KERNEL_SECTOR_SIZE;
 	}
+	bio_endio(bio); // All other drivers have this. Check this?
 	return nsect;
 }
 
