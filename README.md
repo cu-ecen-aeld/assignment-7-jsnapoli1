@@ -67,8 +67,11 @@ Bugs, comments or patches: See https://github.com/martinezjavier/ldd3/issues
 The kernel builds below are the versions most recently tested/supported
 
 * Ubuntu 18.04 kernel as of July 2020: 5.4.0-42-generic
-* Yocto warrior branch kernel for qemu builds: 5.0.19
+* Ubuntu 20.04 kernel as of July 2021: 5.4.0-73-generic
+* Yocto poky warrior branch kernel for qemu aarch64 builds: 5.0.19
+* Yocto poky hardknott branch kernel for qemu aarch64 builds: 5.10.46
 * Buildroot 2019.05 kernel for qemu builds: 4.9.16
+* Buildroot 2021.02 kernel for qemu builds: 5.10
 * Alpine 3.13 kernel as of May 2021: 5.10.29-lts, see [here](https://github.com/ericwq/gccIDE/wiki/ldd3-project) for detail.
 
 
