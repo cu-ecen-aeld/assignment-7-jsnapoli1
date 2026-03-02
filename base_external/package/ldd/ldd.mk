@@ -4,8 +4,8 @@
 #
 ##############################################################
 
-LDD_VERSION = 5c3cae6ddc96b8645dfa6f6bc4ddbba08aae8789
-LDD_SITE = https://github.com/cu-ecen-aeld/ldd3.git
+LDD_VERSION = f0dbe59ac732b5d241ec428e24665eeaeaa12a20
+LDD_SITE = https://github.com/cu-ecen-aeld/assignment-7-jsnapoli1.git
 LDD_SITE_METHOD = git
 LDD_GIT_SUBMODULES = YES
 
