@@ -103,7 +103,7 @@ unload_faulty()
 }
 
 cd /lib/modules/$(uname -r)/extra
-depmod
+/sbin/depmod
 case "$1" in
     start)
         load_scull
